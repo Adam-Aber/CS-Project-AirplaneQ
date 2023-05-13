@@ -8,8 +8,8 @@
 using namespace std;
 
 float Generate_Random(int Dt) {
-    float r = (rand() % 101) / 100.0;
-    return (Dt-0.5) + r;
+    float r = (rand() % 7);
+    return (Dt-3) + r;
 }
 
 int main() {
