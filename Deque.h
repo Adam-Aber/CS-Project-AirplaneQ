@@ -90,11 +90,11 @@ public:
         dequeSize--;
     }
 
-    const T& front() const {
+    T& front() const {
         return frontNode->data;
     }
 
-    const T& back() const {
+    T& back() const {
         return backNode->data;
     }
 };
