@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Adam/CLionProjects/CS-Project-AirplaneQ/cmake-build-debug",
-		"source" : "C:/Users/Adam/CLionProjects/CS-Project-AirplaneQ"
+		"build" : "C:/Users/Adam/CLionProjects/CS-Project-AirplaneQ/CS-Project-AirplaneQ/cmake-build-debug",
+		"source" : "C:/Users/Adam/CLionProjects/CS-Project-AirplaneQ/CS-Project-AirplaneQ"
 	},
 	"version" : 
 	{

@@ -1,5 +1,5 @@
 CMakeFiles/CSTemp.dir/main.cpp.obj: \
- C:\Users\Mohamed\ Khalil\Desktop\Courses\cs\ 2\CSpROJECT\gpt_version\CS-Project-AirplaneQ\main.cpp \
+ C:\Users\Adam\CLionProjects\CS-Project-AirplaneQ\CS-Project-AirplaneQ\main.cpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -135,10 +135,10 @@ CMakeFiles/CSTemp.dir/main.cpp.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
- C:\Users\Mohamed\ Khalil\Desktop\Courses\cs\ 2\CSpROJECT\gpt_version\CS-Project-AirplaneQ\deque.h \
- C:\Users\Mohamed\ Khalil\Desktop\Courses\cs\ 2\CSpROJECT\gpt_version\CS-Project-AirplaneQ\Runway.h \
- C:\Users\Mohamed\ Khalil\Desktop\Courses\cs\ 2\CSpROJECT\gpt_version\CS-Project-AirplaneQ\Airplane.h \
- C:\Users\Mohamed\ Khalil\Desktop\Courses\cs\ 2\CSpROJECT\gpt_version\CS-Project-AirplaneQ\Deque.h \
+ C:\Users\Adam\CLionProjects\CS-Project-AirplaneQ\CS-Project-AirplaneQ\deque.h \
+ C:\Users\Adam\CLionProjects\CS-Project-AirplaneQ\CS-Project-AirplaneQ\AirplaneQueue.h \
+ C:\Users\Adam\CLionProjects\CS-Project-AirplaneQ\CS-Project-AirplaneQ\Airplane.h \
+ C:\Users\Adam\CLionProjects\CS-Project-AirplaneQ\CS-Project-AirplaneQ\Deque.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cmath \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/x86_64-w64-mingw32/include/math.h \

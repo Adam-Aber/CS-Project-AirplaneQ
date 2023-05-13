@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Mohamed Khalil/Desktop/Courses/cs 2/CSpROJECT/gpt_version/CS-Project-AirplaneQ
+# Install script for directory: C:/Users/Adam/CLionProjects/CS-Project-AirplaneQ/CS-Project-AirplaneQ
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Mohamed Khalil/Desktop/Courses/cs 2/CSpROJECT/gpt_version/CS-Project-AirplaneQ/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Adam/CLionProjects/CS-Project-AirplaneQ/CS-Project-AirplaneQ/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

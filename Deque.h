@@ -97,6 +97,10 @@ public:
     T& back() const {
         return backNode->data;
     }
+
+    T& getnext() const {
+        return frontNode->next->data;
+    }
 };
 
 #endif // DEQUE_H

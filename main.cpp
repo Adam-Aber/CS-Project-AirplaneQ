@@ -14,7 +14,7 @@ float Generate_Random(int Dt) {
 
 int main() {
     srand(time(NULL));
-    int Tdeparture = 0, Tservice = 10;
+    int Tservice = 10;
     int Tmax = 360; // 6 hours in minute unit
     int Dt = 6; // avg inter arrival time
     int delay = 30; // avg time for a plane to wait before departure
@@ -31,24 +31,34 @@ int main() {
 
     while (time < Tmax) { // as long as the simulation is working
         nextPlaneIn = Generate_Random(Dt);
-        time += time + nextPlaneIn;
+        cout << "Rand: "<< nextPlaneIn << endl;
+
+        time += nextPlaneIn;
+        cout << "Time: " << time << endl;
+
 
         // Check for new arrivals
-
         Airplane plane(time);
         AirplaneQ.addAirplane(plane); // Add the plane to the AirplaneQ queue
         totalPlanesArrived++;
 
+
+
         // Check for departing planes
         if (AirplaneQ.queueLength() > 1) {
+
             if (plane.getTarrival() > AirplaneQ.getfront()->getTdeparture()) {
+                cout << plane.getTarrival() << endl;
+                cout << AirplaneQ.getfront()->getTdeparture() << endl;
                 Airplane served = AirplaneQ.removeAirplane(); // The first plane in the queue lands and is served
                 served.hasLanded();
+                time += Tservice;
             } else {
                 // Calculate wait time
                 int waitTime = AirplaneQ.getfront()->getTdeparture() -  plane.getTarrival();
                 plane.setTwait(waitTime);
                 totalWaitTime += waitTime;
+
                 if (waitTime < delay) { // If the wait time is less than the departure threshold
                     totalPlanesLeft++;
                 } else { // Otherwise, the plane has been delayed
@@ -57,7 +67,12 @@ int main() {
                 }
             }
 
+        } else{
+            plane.hasLanded();
+            totalPlanesLeft++;
+
         }
+
         /*
         nextPlaneIn -= 1.0; // Decrement time until the next plane arrival
         if (nextPlaneIn <= 0) { // If the time until the next plane arrival is up
@@ -69,6 +84,7 @@ int main() {
     cout << "Simulation Statistics:" << endl;
     cout << "Total planes arrived: " << totalPlanesArrived << endl;
     cout << "Total planes delayed: " << totalPlanesDelayed << endl;
+    cout << "Total planes left on time: " << totalPlanesLeft << endl;
     cout << "Total wait time: " << totalWaitTime << " minutes" << endl;
     cout << "Average wait time: " << ((float)totalWaitTime / totalPlanesArrived) << " minutes" << endl;
 

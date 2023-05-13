@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Mohamed Khalil/Desktop/Courses/cs 2/CSpROJECT/gpt_version/CS-Project-AirplaneQ/main.cpp" "CMakeFiles/CSTemp.dir/main.cpp.obj" "gcc" "CMakeFiles/CSTemp.dir/main.cpp.obj.d"
+  "C:/Users/Adam/CLionProjects/CS-Project-AirplaneQ/CS-Project-AirplaneQ/main.cpp" "CMakeFiles/CSTemp.dir/main.cpp.obj" "gcc" "CMakeFiles/CSTemp.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links.
